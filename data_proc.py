@@ -23,4 +23,4 @@ combined_df = combined_df.assign(sales=combined_df['price'] * combined_df['quant
 combined_df = combined_df[['sales', 'date', 'region']]
 
 # Write the combined dataframe to a new file
-combined_df.to_csv('data/processed_data.csv', index=False)
+combined_df.to_csv('processed_data.csv', index=False)
